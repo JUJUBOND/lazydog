@@ -49,7 +49,7 @@ if not username or not password:
 ocr = ddddocr.DdddOcr()
 
 options = webdriver.FirefoxOptions()
-options.add_argument("--headless") #no head
+
 driver = webdriver.Firefox(executable_path=driver_path,options=options)
 
 driver.get(URL)
